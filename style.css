@@ -3,6 +3,10 @@ Name:
 Date: 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 :root{
     --main-bg-colour: #69C9D0;
     --sec-bg-colour: #EE1D52;
@@ -22,23 +26,23 @@ Date:
     "footer footer footer";
 }
 
-.container > div{ /*DO NOT REMOVE*/
+.container{ /*DO NOT REMOVE*/
     padding: 10px;
 }
 
 .header{ /*DO NOT REMOVE*/
      grid-area: header;
     background-color: #EE1D52;
-    text-align: center;
     font-weight: bold;
     font-size: 30px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Lobster', cursive;
+    text-align: center;
 }
 
 .main{ /*DO NOT REMOVE*/
     grid-area: main;
     background-color: #EE1D52;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .side1{ /*DO NOT REMOVE*/
@@ -49,18 +53,20 @@ Date:
 .side2{ /*DO NOT REMOVE*/
     grid-area: side2;
     background-color: #EE1D52;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .section1{ /*DO NOT REMOVE*/
     grid-area: section1;
     background-color: #69C9D0;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Sigmar One', cursive;
 }
 
 .section2{ /*DO NOT REMOVE*/
     grid-area: section2;
     background-color: #EE1D52;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Sigmar One', cursive;
+    padding: 25px;
 }
 
 .videoSection{ /*DO NOT REMOVE*/
